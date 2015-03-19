@@ -1,5 +1,5 @@
 # Endereços para Sapataria
-Projeto de estudo do framework Java EE 6 e JDK 8 com serviços Restfull e AngularJS
+Projeto de estudo com framework Java EE 6 e JDK 8, mais serviços Restfull e AngularJS.
 
 Construindo com as seguintes ferramentas:
   * Netbeans 8 - https://netbeans.org/
