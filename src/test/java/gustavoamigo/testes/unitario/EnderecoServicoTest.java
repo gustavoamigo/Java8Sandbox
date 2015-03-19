@@ -46,7 +46,7 @@ public class EnderecoServicoTest {
     }
     
     @Test
-    public void GivenANewAddress_WhenCreated_ThenItShouldCrate() {
+    public void givenANewAddress_WhenCreated_ThenItShouldCrate() {
         CepServicos cepServicosMock = mock(CepServicos.class);
         when(cepServicosMock.find("99999999")).thenReturn(new Cep("99999999", "", "", "", ""));
         
@@ -66,7 +66,7 @@ public class EnderecoServicoTest {
     }
     
     @Test(expectedExceptions = {CepNotFoundException.class})
-    public void GivenANewAddressWithBadCep_WhenCreated_ThenItShouldFaild() throws CepNotFoundException  {
+    public void givenANewAddressWithBadCep_WhenCreated_ThenItShouldFaild() throws CepNotFoundException  {
         
         CepServicos cepServicosMock = mock(CepServicos.class);
         when(cepServicosMock.find("99999999")).thenReturn(null);
