@@ -1,4 +1,4 @@
-# Endereços para Sapataria
+# Java 8 Sandbox
 Projeto de estudo com framework Java EE 6 e JDK 8, mais serviços Restfull e AngularJS.
 
 Construindo com as seguintes ferramentas:
